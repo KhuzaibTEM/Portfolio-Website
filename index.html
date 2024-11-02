@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="#main-page">Portfolio</a>
+            <a href="#projects">Projects</a>  
+        </nav>
+    </header>
+    <div id="main-page" class="wrapper">
+        <div class="cols cols0">
+            <span class="topline">Hello</span>
+            <h1>My name is <span class="multiText">Khuzaib</span></h1>
+            <p>I specialize in Python automation, data processing, and game development, using tools like PyAutoGUI, 
+                OpenCV, and Pygame. Recently, I’ve added JavaScript (Phaser) and C++ (SFML, Raylib) for game design. 
+                With a focus on problem-solving, I deliver impactful, versatile solutions.</p>
+        </div>
+    </div>
+    
+    <div id="projects" class="display_proj">
+        <div class="list">
+            <div class="item">
+                <img src="img/WebDev.png" alt="">
+                <div class="content">
+                    <div class="title">Project</div>
+                    <div class="topic">Space Apps Website</div>
+                    <div class="des">
+                        An educational game exploring deep-sea ecosystems and chemosynthesis, 
+                        developed for Space Apps 2024. It combines science and adventure to 
+                        raise awareness about unique ocean life forms.
+                    </div>
+                    <div class="buttons">
+                        <button>
+                            <a href="https://github.com/KhuzaibTEM/ChemosyntheticWorld-SpaceApp2024">View</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/ShooterGame.png" alt="">
+                <div class="content">
+                    <div class="title">Project</div>
+                    <div class="topic">Shooter game</div>
+                    <div class="des">
+                        A thrilling 2D shooter game where players combat ghosts in dynamic levels. 
+                        Built with Python and Pygame, it features engaging gameplay and progressively 
+                        challenging enemies.
+                    </div>
+                    <div class="buttons">
+                        <button>
+                            <a href="https://github.com/KhuzaibTEM/Ghost-shooter-game">View</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/WebGame.png" alt="">
+                <div class="content">
+                    <div class="title">Project</div>
+                    <div class="topic">Web Game</div>
+                    <div class="des">
+                        An interactive 2D game developed with Phaser.js, showcasing engaging mechanics 
+                        and vibrant visuals. This project highlights skills in JavaScript game 
+                        development and creative design.
+                    </div>
+                    <div class="buttons">
+                        <button>
+                            <a href="https://github.com/KhuzaibTEM/PhaserJS-Game">View</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <div class="item">
+                <img src="img/WebDev.png" alt="">
+                <div class="content">
+                    <div class="title">Space Apps Website</div>
+                    <div class="des">WebDev</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/ShooterGame.png" alt="">
+                <div class="content">
+                    <div class="title">Shooter Game</div>
+                    <div class="des">Python</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/WebGame.png" alt="">
+                <div class="content">
+                    <div class="title">Web Game</div>
+                    <div class="des">JavaScript</div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
